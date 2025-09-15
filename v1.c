@@ -36,7 +36,7 @@ int fib(struct fibFrame *frame, int n) {
 
 int main() {
 	struct fibFrame frame = {.label = 0};
-	int ret = fib(&frame, 41);
+	int ret = fib(&frame, 40);
 	printf("fib == %d\n", ret);
 	return 0;
 }

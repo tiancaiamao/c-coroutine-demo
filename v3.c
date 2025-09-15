@@ -126,7 +126,7 @@ int main() {
 
 	struct fibFrame *frame = (struct fibFrame*)(co.stk.ptr);
 	co.stk.len += sizeof(*frame);
-	frame->n = 41;
+	frame->n = 40;
 
 	struct cont init = {
 		.fn = fib,
